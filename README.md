@@ -1,311 +1,293 @@
-# مزايا لوحة التحكم
+# نظام إدارة المحتوى المتقدم (Advanced Arabic CMS)
 
+## 📋 نظرة عامة
 
-- ✅ مهيئة للسيو بشكل تلقائي وذكي
-- ✅ جاهزة لعرض اشعارات مع صور
-- ✅ عرض التنبيهات بشكل لطيف
-- ✅ عرض الأخطاء بشكل لحظي وتلقائي
-- ✅ طريقة لعرض الصور باحترافية
-- ✅ تدعم السحب والافلات
-- ✅ الاشعارات في الوقت الفعلي
-- ✅ أيقونات مدفوعة بشكل مجاني
-- ✅ أفضل وأجمل الخطوط العربية
-- ✅ اعدادات Robots جاهزة
-- ✅ منشئ SiteMap تلقائي
-- ✅ جاهزة للتحويل إلى تطبيق هاتف
-- ✅ جميع الصفحات الأساسية وأكثر
-- ✅ احصائيات رائعة في لوحة التحكم
-- ✅ امكانية انشاء قوائم وتحديد أماكنها
-- ✅ امكانية ترتيب الروابط داخل القوائم
-- ✅ امكانية انشاء صفحات مخصصة
-- ✅ نظام اعلانات جاهز
-- ✅ مدونة متكاملة أقسام،مقالات ..
-- ✅ نظام تحويل الروابط
-- ✅ عربية بالكامل !
-- ✅ محرر جميل مع امكانية رفع صور
-- ✅ نظام مستخدمين ولهم صور
-- ✅ متجاوبة بالكامل
-- ✅ تستخدم آخر اصدار Laravel
-- ✅ تستخدم آخر اصدار Bootstrap
-- ✅ الاشعارات في الوقت الفعلي
-- ✅ راصد الأخطاء الذكي
-- ✅ نظام تتبع شامل
-- ✅ اضافة حدود الزيارات لزيادة الحماية
-- ✅ صفحات 404 مخصصة
-- ✅ صفحات الدخول والتسجيل وغيرها
-- ✅ نظام اعدادات الموقع
-- ✅ جاهزة للدمج مع كلاود فلاير
-- ✅ نظام متابعة ذكي
-- ✅ نظام صلاحيات متقدم
-- ✅ مرفق نماذج لصناعة الصفحات
-- ✅ نظام التذاكر للتواصل معنا
-- ✅ نظام Plugins جاهز لاضافة المزيد
-- ✅ المزيد 
+**نظام إدارة المحتوى المتقدم** هو نظام شامل لإدارة المحتوى مبني على Laravel مع ميزات متقدمة للملفات والإشعارات والتحقق من النماذج. النظام مصمم لتوفير حل متكامل لإدارة المواقع والتطبيقات الويب باللغة العربية.
 
+### ✨ المميزات الرئيسية
 
-### Screenshots
+- 📁 **نظام إدارة ملفات متقدم** مع السحب والإفلات
+- 🔔 **نظام إشعارات شامل** مع دعم البريد الإلكتروني
+- ✅ **نظام تحقق متقدم** للنماذج
+- 📝 **محرر نصوص** مع استكشاف الملفات
+- 🖼️ **معرض صور متقدم** باستخدام Fancybox
+- 🎨 **واجهة مستخدم حديثة** ومتجاوبة
+- 🔐 **نظام مصادقة آمن**
+- 📊 **لوحة تحكم شاملة**
 
+## 🛠️ التقنيات المستخدمة
 
-![screenshots/25.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/25.jpg)
-![screenshots/18.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/18.jpg)
-![screenshots/19.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/19.jpg)
-![screenshots/20.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/20.jpg)
-![screenshots/24.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/24.jpg)
-![screenshots/6.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/6.jpg)
-![screenshots/7.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/7.jpg)
-![screenshots/8.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/8.jpg)
-![screenshots/9.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/9.jpg)
-![screenshots/10.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/10.jpg)
-![screenshots/11.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/11.jpg)
-![screenshots/12.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/12.jpg)
-![screenshots/13.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/13.jpg)
-![screenshots/14.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/14.jpg)
-![screenshots/15.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/15.jpg)
-![screenshots/16.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/16.jpg)
-![screenshots/17.jpg](https://raw.githubusercontent.com/peter-tharwat/dashboard/master/public/images/screenshots/17.jpg)
+| التقنية | الإصدار | الوصف |
+|---------|---------|-------|
+| **Laravel** | 9.x | إطار العمل PHP |
+| **jQuery** | Latest | مكتبة JavaScript |
+| **Bootstrap** | 5.x | إطار العمل CSS |
+| **TinyMCE** | Latest | محرر النصوص |
+| **DataTables** | Latest | جداول البيانات |
+| **Flatpickr** | Latest | منتقي التواريخ |
+| **Toastr** | Latest | الإشعارات |
 
+## 🚀 البدء السريع
 
+### المتطلبات الأساسية
 
-<!-- - ✅ Auto & Smart Seo
-- ✅ Optimized Notifications With Images
-- ✅ Smart Alerts
-- ✅ Auto Js Validations
-- ✅ Front End Alert
-- ✅ Nice Image Viewing FancyBox
-- ✅ Drag And drop Feature
-- ✅ Fully Arabic 😀
-- ✅ Smart Editor With Upload Images
-- ✅ Select from Already uploaded Files
-- ✅ Fully Profile System With Avatars ( Can Resize Avatar )
-- ✅ Fully Responsive
-- ✅ Intervally Getting Notifcations Out Of The Box
-- ✅ FontAwesome PRO 💥 + ResponsiveFonts + Noto Sans Arabic fonts Included
-- ✅ Robots.txt , SiteMapGenerator , manifest.json
-- ✅ General Statistics On Home Page ( Traffic , New Users , Top Pages , Top Browsers , Top Devices , Top OSs , Top Ips , Top Users , and so on ... )
-- ✅ basic pages ( contact , articles , privacy , terms , about , categories , redirections )
-- ✅ You can Create Menus With Links ( can change order by Drag And drop )
-- ✅ Ability to Create custom pages
-- ✅ Smart Error Listeners
-- ✅ Smart Traffic tracker
-- ✅ RateLimit Plugin
-- ✅ Custom 404 Page
-- ✅ Nice Login , Register and Confirm Email Pages
-- ✅ Most Common Settings
-- ✅ Ready to integrate CloudFlare Firewall
-- ✅ Smart Logging System -->
-    
- 
+- PHP 8.0+
+- Composer
+- MySQL/MariaDB
+- Web Server (Apache/Nginx)
 
-### How to setup
+### خطوات التثبيت
 
-```bash
-#dont forget to install 
-sudo apt-get install php-imagick
-composer install
-# copy .env.example to .env
-cp .env.example .env
-# generate security key , link storage file
-php artisan key:generate
-php artisan storage:link
-# after connect your database via .env file
-php artisan migrate:fresh
-php artisan db:seed
+1. **استنساخ المستودع**
+   ```bash
+   git clone <repository-url>
+   cd dashboard-master
+   ```
 
-# dont forget to start queuing and run schedule on the background 
-php artisan queue:work && php artisan schedule:run 
-```
+2. **تثبيت الاعتماديات**
+   ```bash
+   composer install
+   ```
 
-### Credentials
+3. **إعداد ملف البيئة**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+4. **تكوين قاعدة البيانات**
+   ```env
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=cms_database
+   DB_USERNAME=your_username
+   DB_PASSWORD=your_password
+   ```
+
+5. **تشغيل الهجرات**
+   ```bash
+   php artisan migrate
+   php artisan db:seed
+   ```
+
+6. **تشغيل الخادم**
+   ```bash
+   php artisan serve
+   ```
+
+## 📁 هيكل المشروع
 
 ```
-login page : <http://127.0.0.1:8000/login>
-email : admin@admin.com
-password : password
-
+dashboard-master/
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   └── Middleware/
+│   ├── Models/
+│   └── Providers/
+├── database/
+│   ├── migrations/
+│   └── seeders/
+├── resources/
+│   ├── views/
+│   │   ├── admin/
+│   │   └── templates/
+│   ├── js/
+│   └── css/
+├── public/
+│   ├── uploads/
+│   └── js/
+├── routes/
+│   ├── web.php
+│   └── api.php
+└── .env.example
 ```
 
-### Main Yield Sections
+## 🔧 المميزات المتقدمة
 
-```jsx
-@yield('styles')
-@yield('content')
-@yield('after-body')
-@yield('scripts')
-```
+### 📁 نظام إدارة الملفات
 
-### Notifications On Response
-
-```jsx
-// docs : https://github.com/mckenziearts/laravel-notify
-
-notify()->info('content','title');
-
-notify()->success('content','title');
-
-notify()->error('content','title');
-```
-
-### Notifications On Frontend
-
-```jsx
-// docs : https://github.com/CodeSeven/toastr
-*****
-You have To put alert in scripts section
-// @yield('scripts')
-*****
-// Display a warning toast, with no title
-toastr.warning('My name is Inigo Montoya. You killed my father, prepare to die!')
-
-// Display a success toast, with a title
-toastr.success('Have fun storming the castle!', 'Miracle Max Says')
-
-// Display an error toast, with a title
-toastr.error('I do not think that word means what you think it means.', 'Inconceivable!')
-
-// Immediately remove current toasts without using animation
-toastr.remove()
-
-// Remove current toasts using animation
-toastr.clear()
-
-// Override global options
-toastr.success('We do have the Kapua suite available.', 'Turtle Bay Resort', {timeOut: 5000})
-```
-
-### Notification to [ 'dashboard' , 'email' ]
-
-```jsx
-(new \MainHelper)->notify_user([
-      'user_id'=>2,
-      'message'=>"محتوى الإشعار" ,
-      'url'=>"http://example.com",
-			'methods'=>['database','mail']
-]);
-```
-
-### Editor with and without file-explorer
-
-```jsx
-<textarea type="text" name="description" required minlength="3" maxlength="10000" class="form-control editor with-file-explorer" ></textarea>
-<textarea type="text" name="description" required minlength="3" maxlength="10000" class="form-control editor"  ></textarea>
-```
-
-### Upload Files
-
+#### رفع الملفات
 ```php
-#Upload File
+# رفع ملف واحد
 $this->store_file([
-    'source'=>$request->file,
-    'validation'=>"image",
-    'path_to_save'=>'/uploads/users/',
-    'type'=>'AVATAR', 
-    'user_id'=>\Auth::user()->id,
-    'resize'=>[500,3000],
-    'small_path'=>'small/',
-    'visibility'=>'PUBLIC',
-    'file_system_type'=>env('FILESYSTEM_DRIVER'),
-    'watermark'=>true,
-    'optimize'=>true,
+    'source' => $request->file,
+    'validation' => "image",
+    'path_to_save' => '/uploads/users/',
+    'type' => 'AVATAR',
+    'user_id' => \Auth::user()->id,
+    'resize' => [500, 3000],
+    'small_path' => 'small/',
+    'visibility' => 'PUBLIC',
+    'file_system_type' => env('FILESYSTEM_DRIVER'),
+    'watermark' => true,
+    'optimize' => true,
 ])['filename'];
+```
 
-#Use File
-$this->use_hub_file('file_name','type_id','user_id');
-#use multiple files
-$uploaded_files=json_decode($request["fileuploader-list-attachment"]);
-$attachments=[];foreach($uploaded_files as $uploaded_file)array_push($attachments, $uploaded_file->file);
-foreach($attachments as $attachment)
-     $this->use_hub_file($attachment, $item->id, auth()->user()->id);
+#### استخدام الملفات
+```php
+# استخدام ملف محدد
+$this->use_hub_file('file_name', 'type_id', 'user_id');
 
-#Remove File
+# استخدام ملفات متعددة
+$uploaded_files = json_decode($request["fileuploader-list-attachment"]);
+$attachments = [];
+foreach($uploaded_files as $uploaded_file) {
+    array_push($attachments, $uploaded_file->file);
+}
+foreach($attachments as $attachment) {
+    $this->use_hub_file($attachment, $item->id, auth()->user()->id);
+}
+```
+
+#### حذف الملفات
+```php
+# حذف ملف
 $this->remove_hub_file('file_name');
 ```
 
-### Drag And Drop Feature
+### 🎯 خاصية السحب والإفلات (Drag and Drop)
 
-```php
-# You have to use this code inside @section('scripts')
-
-#for single upload
+#### للرفع الفردي
+```blade
 @include('admin.templates.dropzone',[
-		'selector'=>'#file-uploader-nafezly-main',
-		'url'=> route('admin.upload.file'),
-		'method'=>'POST',
-		'remove_url'=>route('admin.upload.remove-file'),
-		'remove_method'=>'POST',
-		'enable_selector_after_upload'=>'#submitEvaluation',
-		'max_files'=>1,
-		'max_file_size'=>'50',
-		'accepted_files'=>"['image/*']"
+    'selector' => '#file-uploader-single',
+    'url' => route('admin.upload.file'),
+    'method' => 'POST',
+    'remove_url' => route('admin.upload.remove-file'),
+    'remove_method' => 'POST',
+    'enable_selector_after_upload' => '#submitForm',
+    'max_files' => 1,
+    'max_file_size' => '50',
+    'accepted_files' => "['image/*']"
 ])
-
-#for multiplue uploads
-@include('admin.templates.dropzone',[
-		'selector'=>'#file-uploader-nafezly-second',
-		'url'=> route('admin.upload.file'),
-		'method'=>'POST',
-		'remove_url'=>route('admin.upload.remove-file'),
-		'remove_method'=>'POST',
-		'enable_selector_after_upload'=>'#submitEvaluation',
-		'max_files'=>100,
-		'max_file_size'=>'50',
-		'accepted_files'=>"['image/*']"
-])
-
 ```
 
-```jsx
-/* You have To import this code inside */
-
-/*for single upload*/
-<div class="col-12  px-0 mt-2 px-0">
-    <div class="col-12 mt-2" style="overflow: hidden">
-        <div class="col-12 px-0" id="file-uploader-nafezly-main">
-            <input type="hidden" disabled class="file-uploader-uploaded-files">
-				    <input name="attachment" type="file" multiple class="file-uploader-files" data-fileuploader-files="" style="opacity: 0" />
-							<!--
-							# for rendering old uploaded files 
-							<input name="attachment" type="file" multiple class="file-uploader-files" data-fileuploader-files='@include('site-templates.uploaded-files-array',['files'=>$item->uploaded_files()])' style="opacity: 0" />
-							# uploaded_files => is a laravel collection 
-							-->
-        </div> 
-    </div>
- </div>
-
-/*for multiple uploads*/
-<div class="col-12  px-0 mt-2 px-0">
-    <div class="col-12 mt-2" style="overflow: hidden">
-        <div class="col-12 px-0" id="file-uploader-nafezly-second">
-           <input type="hidden" disabled class="file-uploader-uploaded-files">
-				   <input name="attachment" type="file" multiple class="file-uploader-files" data-fileuploader-files="" style="opacity: 0" />
-						<!--
-							# for rendering old uploaded files 
-							<input name="attachment" type="file" multiple class="file-uploader-files" data-fileuploader-files='@include('site-templates.uploaded-files-array',['files'=>$item->uploaded_files()])' style="opacity: 0" />
-							# uploaded_files => is a laravel collection 
-							-->
-        </div>
-    </div>
- </div>
+#### للرفع المتعدد
+```blade
+@include('admin.templates.dropzone',[
+    'selector' => '#file-uploader-multiple',
+    'url' => route('admin.upload.file'),
+    'method' => 'POST',
+    'remove_url' => route('admin.upload.remove-file'),
+    'remove_method' => 'POST',
+    'enable_selector_after_upload' => '#submitForm',
+    'max_files' => 100,
+    'max_file_size' => '50',
+    'accepted_files' => "['image/*', 'application/pdf']"
+])
 ```
 
-### Fancybox
+### 📝 محرر النصوص المتقدم
 
-```jsx
-/* Just Add this Tag To image */
-<img src="" data-fancybox />
+#### محرر مع استكشاف الملفات
+```blade
+<textarea name="description" class="form-control editor with-file-explorer" 
+          required minlength="3" maxlength="10000"></textarea>
+```
 
-/* Every image inside this class "data-fancybox" will be converted to fancy */
+#### محرر عادي
+```blade
+<textarea name="description" class="form-control editor" 
+          required minlength="3" maxlength="10000"></textarea>
+```
+
+### 🖼️ معرض الصور (Fancybox)
+
+#### استخدام الصور المنفردة
+```html
+<img src="image.jpg" data-fancybox />
+```
+
+#### استخدام المعرض
+```html
 <div class="fancybox">
-		<img src="" />
+    <img src="image1.jpg" />
+    <img src="image2.jpg" />
+    <img src="image3.jpg" />
 </div>
 ```
 
-### Configrations .env
+### ✅ التحقق من النماذج
 
-```jsx
+#### تفعيل التحقق التلقائي
+```html
+<form id="validate-form">
+    <!-- حقول النموذج هنا -->
+</form>
+```
+
+#### أو استخدام مخصص
+```html
+<form id="custom-validation"></form>
+
+@section('scripts')
+<script type="text/javascript">
+    $("#custom-validation").validate();
+</script>
+@endsection
+```
+
+## 🔔 نظام الإشعارات
+
+### الإشعارات في الخادم
+```php
+// الوثائق: https://github.com/mckenziearts/laravel-notify
+
+notify()->info('المحتوى', 'العنوان');
+notify()->success('تم الحفظ بنجاح', 'نجاح');
+notify()->error('حدث خطأ', 'خطأ');
+```
+
+### الإشعارات في الواجهة الأمامية
+```javascript
+// الوثائق: https://github.com/CodeSeven/toastr
+
+// عرض إشعار تحذير
+toastr.warning('رسالة تحذير');
+
+// عرض إشعار نجاح مع عنوان
+toastr.success('تمت العملية بنجاح!', 'نجاح');
+
+// عرض إشعار خطأ
+toastr.error('حدث خطأ ما', 'خطأ');
+
+// إزالة الإشعارات الحالية
+toastr.remove();
+
+// مسح جميع الإشعارات
+toastr.clear();
+
+// إشعار مخصص
+toastr.success('رسالة مخصصة', 'عنوان مخصص', {
+    timeOut: 5000,
+    closeButton: true,
+    progressBar: true
+});
+```
+
+### الإشعارات المتعددة القنوات
+```php
+(new \MainHelper)->notify_user([
+    'user_id' => 2,
+    'message' => "محتوى الإشعار",
+    'url' => "http://example.com",
+    'methods' => ['database', 'mail']
+]);
+```
+
+## ⚙️ إعدادات النظام
+
+### إعدادات .env
+```env
+# نظام الملفات
 FILESYSTEM_DRIVER=local
 STORAGE_BASE=/storage
 STORAGE_URL="${STORAGE_BASE}"
 
+# الصور الافتراضية
 DEFAULT_IMAGE="${APP_URL}/images/default/image.jpg"
 DEFAULT_IMAGE_FAVICON="${APP_URL}/images/default/favicon.png"
 DEFAULT_IMAGE_AVATAR="${APP_URL}/images/default/avatar.png"
@@ -314,26 +296,143 @@ DEFAULT_IMAGE_WIDELOGO="${APP_URL}/images/default/wide-logo.png"
 DEFAULT_IMAGE_COVER="${APP_URL}/images/default/cover.png"
 DEFAULT_IMAGE_NOTIFICATION="${APP_URL}/images/default/notification.png"
 
+# البريد الإلكتروني الافتراضي
 DEFAULT_EMAIL=admin@admin.com
 DEFAULT_PASSWORD=password
 ```
 
-### Validate Form
+## 🎨 الأقسام الرئيسية في القوالب
 
-```jsx
-/* just add this id  to form like this */
-<form id="validate-form"></form>
-
-/*or add this code to the end of the page */
-
-<form id="custom-validation"></form>
-@section('content')
-<script type="text/javascript">
-	$("#custom-validation").validate();
-</script>
-@endsection
+### هيكل الصفحة
+```blade
+@yield('styles')
+@yield('content')
+@yield('after-body')
+@yield('scripts')
 ```
 
-### Controlling Accessibility To files Viewer
-#   A d v a n c e d A r a b i c C M S  
- 
+## 📊 جداول البيانات (DataTables)
+
+### التكوين الأساسي
+```javascript
+$('#datatable').DataTable({
+    language: {
+        url: '//cdn.datatables.net/plug-ins/1.10.24/i18n/Arabic.json'
+    },
+    responsive: true,
+    pageLength: 25,
+    order: [[0, 'desc']]
+});
+```
+
+## 📅 منتقي التواريخ (Flatpickr)
+
+### التكوين الأساسي
+```javascript
+flatpickr("#date-picker", {
+    locale: "ar",
+    dateFormat: "Y-m-d",
+    minDate: "today",
+    maxDate: new Date().fp_incr(365) // سنة من الآن
+});
+```
+
+## 🔐 التحكم في الوصول للملفات
+
+### إعدادات الأمان
+```php
+// في ملف config/filesystems.php
+'public' => [
+    'driver' => 'local',
+    'root' => storage_path('app/public'),
+    'url' => env('APP_URL').'/storage',
+    'visibility' => 'public',
+],
+```
+
+## 🚀 أوامر Artisan المتاحة
+
+### أوامر التطوير
+```bash
+# تشغيل الخادم
+php artisan serve
+
+# مسح الكاش
+php artisan cache:clear
+php artisan config:clear
+php artisan view:clear
+
+# إنشاء تحكم
+php artisan make:controller AdminController
+
+# إنشاء نموذج
+php artisan make:model Post -m
+
+# تشغيل الهجرات
+php artisan migrate
+php artisan migrate:fresh --seed
+```
+
+### أوامر قائمة الانتظار
+```bash
+# تشغيل عامل قائمة الانتظار
+php artisan queue:work
+
+# تشغيل المهام المجدولة
+php artisan schedule:run
+```
+
+## 📱 بيانات الاعتماد الافتراضية
+
+```
+صفحة تسجيل الدخول: http://127.0.0.1:8000/login
+البريد الإلكتروني: admin@admin.com
+كلمة المرور: password
+```
+
+## 🧪 الاختبار
+
+### تشغيل الاختبارات
+```bash
+# جميع الاختبارات
+php artisan test
+
+# اختبارات معينة
+php artisan test --filter AdminTest
+
+# تغطية الكود
+php artisan test --coverage
+```
+
+## 📄 الترخيص
+
+هذا المشروع مرخص تحت رخصة MIT.
+
+## 🤝 المساهمة
+
+نرحب بمساهماتكم! يرجى اتباع الخطوات التالية:
+
+1. قم بعمل Fork للمشروع
+2. أنشئ فرعًا جديدًا: `git checkout -b feature/amazing-feature`
+3. قم بالتغييرات
+4. ادفع الفرع: `git push origin feature/amazing-feature`
+5. افتح Pull Request
+
+## 🆘 الدعم
+
+لأي استفسارات أو مساعدة:
+- 📝 افتح مشكلة (issue) جديدة
+- 📧 تواصل مع فريق الدعم
+- 📖 راجع الوثائق التقنية
+
+## 🔄 التحديثات المستقبلية
+
+- 🚀 دعم React و Vue.js
+- 📱 تطبيق جوال أصلي
+- 🔔 نظام إشعارات فوري
+- 📊 تقارير متقدمة
+- 🌍 دعم لغات إضافية
+
+---
+
+**مبني بـ ❤️ باستخدام [Laravel](https://laravel.com/)**
